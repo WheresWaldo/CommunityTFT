@@ -65,7 +65,7 @@ func (m *statusPanel) createMainBox() *gtk.Box {
     butt.Add(m.createPrintButton())
     butt.Add(m.createPauseButton())
     butt.Add(m.createStopButton())
-	butt.Add(MustButton(MustImageFromFileWithSize("back.svg", 40, 40), m.UI.GoHistory))
+	butt.Add(MustButton(MustImageFromFile("back.svg"), m.UI.GoHistory))
 
 	box := MustBox(gtk.ORIENTATION_VERTICAL, 5)
 	box.SetVAlign(gtk.ALIGN_START)
@@ -95,7 +95,7 @@ func (m *statusPanel) createInfoBox() *gtk.Box {
 }
 
 func (m *statusPanel) createPrintButton() gtk.IWidget {
-	m.print = MustButton(MustImageFromFileWithSize("status.svg", 40, 40), func() {
+	m.print = MustButton(MustImageFromFile("status.svg"), func() {
 		defer m.updateTemperature()
 
 		Logger.Warning("Starting a new job")
@@ -109,7 +109,7 @@ func (m *statusPanel) createPrintButton() gtk.IWidget {
 }
 
 func (m *statusPanel) createPauseButton() gtk.IWidget {
-	m.pause = MustButton(MustImageFromFileWithSize("pause.svg", 40, 40), func() {
+	m.pause = MustButton(MustImageFromFile("pause.svg"), func() {
 		defer m.updateTemperature()
 
 		Logger.Warning("Pausing/Resuming job")
@@ -124,7 +124,7 @@ func (m *statusPanel) createPauseButton() gtk.IWidget {
 }
 
 func (m *statusPanel) createStopButton() gtk.IWidget {
-	m.stop = MustButton(MustImageFromFileWithSize("stop.svg", 40, 40), func() {
+	m.stop = MustButton(MustImageFromFile("stop.svg"), func() {
 		defer m.updateTemperature()
 
 		Logger.Warning("Stopping job")
