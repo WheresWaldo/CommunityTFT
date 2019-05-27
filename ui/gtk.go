@@ -66,7 +66,7 @@ type LabelWithImage struct {
 }
 
 // LabelImageSize default width and height of the image for a LabelWithImage
-const LabelImageSize = 20
+const LabelImageSize = 32
 
 // MustLabelWithImage returns a new LabelWithImage based on a gtk.Box containing
 // a gtk.Label with a gtk.Image, the image is scaled at LabelImageSize.
