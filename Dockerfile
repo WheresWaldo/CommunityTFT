@@ -5,7 +5,7 @@ ARG GO_TAGS
 ENV GO_TAGS=${GO_TAGS}
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-  git build-essential \
+  git build-essential apt-utils\
   debhelper devscripts fakeroot git-buildpackage dh-make dh-systemd dh-golang \
   libcairo2-dev \
   libgtk-3-dev
