@@ -1,0 +1,17 @@
+[Unit]
+Description=OctoPrint-TFT
+Conflicts=getty@tty7.service
+After=systemd-user-sessions.service getty@tty7.service plymouth-quit.service
+
+[Service]
+EnvironmentFile=/etc/octoprint-tft-environment
+ExecStart=/usr/bin/xinit /usr/bin/OctoPrint-TFT -- :0 -nolisten tcp -nocursor
+StandardOutput=journal
+Restart=always
+RestartSec=1s
+TimeoutStopSec=5s
+IgnoreSIGPIPE=no
+
+[Install]
+WantedBy=graphical.target
+Alias=display-manager.service
