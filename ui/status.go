@@ -44,7 +44,7 @@ func (m *statusPanel) createProgressBar() *gtk.ProgressBar {
 	m.pb.SetMarginTop(12)
 	m.pb.SetMarginStart(5)
 	m.pb.SetMarginEnd(5)
-	m.pb.SetMarginBottom(17)
+	m.pb.SetMarginBottom(22)
 
 	return m.pb
 }
@@ -54,7 +54,7 @@ func (m *statusPanel) createMainBox() *gtk.Box {
 	grid.SetHExpand(true)
 	grid.Add(m.createInfoBox())
 	grid.SetVAlign(gtk.ALIGN_START)
-	grid.SetMarginTop(20)
+	grid.SetMarginTop(30)
 
 	butt := MustBox(gtk.ORIENTATION_HORIZONTAL, 5)
 	butt.SetHAlign(gtk.ALIGN_END)
@@ -170,7 +170,7 @@ func (m *statusPanel) doUpdateState(s *octoprint.PrinterState) {
 		m.stop.SetSensitive(true)
 	case s.Flags.Paused:
 		m.print.SetSensitive(false)
-		m.pause.SetImage(MustImageFromFileWithSize("resume.svg", 40, 40))
+		m.pause.SetImage(MustImageFromFile("resume.svg"))
 		m.pause.SetSensitive(true)
 		m.stop.SetSensitive(true)
 		return
@@ -184,7 +184,7 @@ func (m *statusPanel) doUpdateState(s *octoprint.PrinterState) {
 		m.stop.SetSensitive(false)
 	}
 
-	m.pause.SetImage(MustImageFromFileWithSize("pause.svg", 40, 40))
+	m.pause.SetImage(MustImageFromFile("pause.svg"))
 }
 
 func (m *statusPanel) updateJob() {
