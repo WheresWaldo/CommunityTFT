@@ -52,7 +52,7 @@ func (m *temperaturePanel) initialize() {
 	m.Grid().Attach(m.amount, 3, 1, 1, 1)
 
 	// m.Grid().Attach(MustButtonImage("Profiles", "heat-up.svg", m.profilesPanel), 3, 1, 1, 1)
-	m.Grid().Attach(MustButtonImage("Back", "back.svg", m.UI.GoHistory), 4, 1, 1, 1)
+	m.Grid().Attach(MustButtonImage(" ", "back.svg", m.UI.GoHistory), 4, 1, 1, 1)
 }
 
 func (m *temperaturePanel) createToolButton() *StepButton {
@@ -183,8 +183,8 @@ func (m *profilesPanel) initialize() {
 	defer m.Initialize()
 	m.loadProfiles()
 
-	m.Grid().Attach(MustButtonImage("Temp", "settings.svg", m.temperaturePanel), 3, 1, 1, 1)
-	m.Grid().Attach(MustButtonImage("Back", "back.svg", m.UI.GoHistory), 4, 1, 1, 1)
+	m.Grid().Attach(MustButtonImage("Temp", "heat-up.svg", m.temperaturePanel), 3, 1, 1, 1)
+	m.Grid().Attach(MustButtonImage(" ", "back.svg", m.UI.GoHistory), 4, 1, 1, 1)
 }
 
 func (m *profilesPanel) loadProfiles() {

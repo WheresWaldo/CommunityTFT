@@ -20,10 +20,10 @@ func (m *defaultPanel) initialize() {
 	m.Grid().Attach(MustButtonImage("Status", "status.svg", m.showStatus), 1, 0, 1, 1)
 	m.Grid().Attach(MustButtonImage("Files", "files.svg", m.showFiles), 2, 0, 1, 1)
 	m.Grid().Attach(MustButtonImage("Heat Up", "heat-up.svg", m.showTemperature), 3, 0, 1, 1)
-	m.Grid().Attach(MustButtonImage("Filament", "filament_clean.svg", m.showFilament), 4, 0, 1, 1)
+	m.Grid().Attach(MustButtonImage("Filament", "filament.svg", m.showFilament), 4, 0, 1, 1)
 	m.Grid().Attach(MustButtonImage("Home", "home.svg", m.showHome), 1, 1, 1, 1)
 	m.Grid().Attach(MustButtonImage("Move", "move.svg", m.showMove), 2, 1, 1, 1)
-	m.Grid().Attach(MustButtonImage("Control", "fan-on.svg", m.showControl), 3, 1, 1, 1)
+	m.Grid().Attach(MustButtonImage("Control", "control.svg", m.showControl), 3, 1, 1, 1)
 	m.Grid().Attach(MustButtonImage("System", "settings.svg", m.showSystem), 4, 1, 1, 1)
 }
 

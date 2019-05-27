@@ -46,7 +46,7 @@ func (m *controlPanel) initialize() {
 		b := m.createCommandButton(c)
 		m.AddButton(b)
 	}
-	m.Grid().Attach(MustButtonImage("Back", "back.svg", m.UI.GoHistory), 4, 1, 1, 1)
+	m.Grid().Attach(MustButtonImage(" ", "back.svg", m.UI.GoHistory), 4, 1, 1, 1)
 }
 
 func (m *controlPanel) getControl() []*octoprint.ControlDefinition {

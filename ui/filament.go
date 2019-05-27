@@ -54,7 +54,7 @@ func (m *filamentPanel) initialize() {
 	m.Grid().Attach(m.createToolButton(), 1, 1, 1, 1)
 	m.Grid().Attach(m.createFlowrateButton(), 3, 1, 1, 1)
 	
-	m.Grid().Attach(MustButtonImage("Back", "back.svg", m.UI.GoHistory), 4, 1, 1, 1)
+	m.Grid().Attach(MustButtonImage(" ", "back.svg", m.UI.GoHistory), 4, 1, 1, 1)
 }
 
 func (m *filamentPanel) updateTemperatures() {
