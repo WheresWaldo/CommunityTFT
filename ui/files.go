@@ -53,13 +53,13 @@ func (m *filesPanel) createActionBar() gtk.IWidget {
 
 	bar.Add(m.createRefreshButton())
 	//bar.Add(m.createInitReleaseSDButton())
-	bar.Add(MustButton(MustImageFromFileWithSize("back.svg", 35, 35), m.UI.GoHistory))
+	bar.Add(MustButton(MustImageFromFileWithSize("back.svg", 48, 48), m.UI.GoHistory))
 
 	return bar
 }
 
 func (m *filesPanel) createRefreshButton() gtk.IWidget {
-	return MustButton(MustImageFromFileWithSize("refresh.svg", 35, 35), m.doLoadFiles)
+	return MustButton(MustImageFromFileWithSize("refresh.svg", 48, 48), m.doLoadFiles)
 }
 
 func (m *filesPanel) doLoadFiles() {
@@ -143,7 +143,7 @@ func (m *filesPanel) addFile(b *gtk.Box, f *octoprint.FileInformation) {
 
 func (m *filesPanel) createLoadAndPrintButton(img string, f *octoprint.FileInformation) gtk.IWidget {
 	return MustButton(
-		MustImageFromFileWithSize(img, 20, 20),
+		MustImageFromFileWithSize(img, 32, 32),
 		PrintDialog(m.UI.w, "File loaded. Start printing?\n"+filenameEllipsis_short(f.Name), f.Path, m),
 	)
 }

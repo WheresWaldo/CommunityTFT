@@ -23,12 +23,16 @@ GtkButton {
     background-image: none;
     background-color:#101010;
     /*border:0;*/
-    margin:2px;
+    margin:4px;
     border-radius:0;
 }
 
+GtkBox {
+    font: 20px Sans;
+}
+
 .scrollbar {
-    -GtkRange-slider-width: 4px;
+    -GtkRange-slider-width: 10px;
 }
 
 .slider{
