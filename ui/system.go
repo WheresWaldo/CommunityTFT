@@ -117,7 +117,7 @@ func (m *systemPanel) doCreateButtonFromCommand(cmd *octoprint.CommandDefinition
 		cb = MustConfirmDialog(m.UI.w, cmd.Confirm, do)
 	}
 
-	return MustButton(MustImageFromFileWithSize(cmd.Action+".svg", 40, 40), cb)
+	return MustButton(MustImageFromFile(cmd.Action+".svg"), cb)
 }
 
 func (m *systemPanel) createInfoBox() gtk.IWidget {
