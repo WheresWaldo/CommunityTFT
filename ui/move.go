@@ -32,7 +32,7 @@ func (m *movePanel) initialize() {
 	m.AddButton(m.createMoveButton("Z+", "move-z+.svg", octoprint.ZAxis, 1))
 
 	m.step = MustStepButton("move-step.svg",
-		Step{"20mm", 20}, Step{"10mm", 10}, Step{"1mm", 1},
+		Step{"20mm", 20}, Step{"10mm", 10}, Step{"1mm", 1}, Step{"0.1mm", 0.1},
 	)
 
 	m.AddButton(m.step)
@@ -43,9 +43,9 @@ func (m *movePanel) initialize() {
 	m.Grid().Attach(MustButtonImage(" ", "back.svg", m.UI.GoHistory), 4, 1, 1, 1)
 }
 
-func (m *movePanel) createMoveButton(label, image string, a octoprint.Axis, dir int) gtk.IWidget {
+func (m *movePanel) createMoveButton(label, image string, a octoprint.Axis, dir float64) gtk.IWidget {
 	return MustButtonImage(label, image, func() {
-		distance := m.step.Value().(int) * dir
+		distance := m.step.Value().(float64) * dir
 
 		cmd := &octoprint.PrintHeadJogRequest{}
 		switch a {
@@ -57,7 +57,7 @@ func (m *movePanel) createMoveButton(label, image string, a octoprint.Axis, dir 
 			cmd.Z = distance
 		}
 
-		Logger.Warningf("Jogging %s axis in %dmm",
+		Logger.Warningf("Jogging %s axis in %.2fmm",
 			strings.ToUpper(string(a)), distance,
 		)
 

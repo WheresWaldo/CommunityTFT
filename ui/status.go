@@ -216,9 +216,12 @@ func (m *statusPanel) updateJob() {
 	default:
 		e := time.Duration(int64(s.Progress.PrintTime) * 1e9)
 		l := time.Duration(int64(s.Progress.PrintTimeLeft) * 1e9)
+		eta := time.Now().Add(l)
 		text = fmt.Sprintf("Elapsed: %s / Left: %s", e, l)
 		if l == 0 {
 			text = fmt.Sprintf("Elapsed: %s", e)
+		} else {
+            text = fmt.Sprintf("Elapsed: %s / Left: %s / ETA: %s", e, l, eta)
 		}
 	}
 
@@ -226,16 +229,16 @@ func (m *statusPanel) updateJob() {
 }
 
 func filenameEllipsis_long(name string) string {
-	if len(name) > 35 {
-		return name[:32] + "…"
+	if len(name) > 45 {
+		return name[:42] + "…"
 	}
 
 	return name
 }
 
 func filenameEllipsis(name string) string {
-	if len(name) > 31 {
-		return name[:28] + "…"
+	if len(name) > 41 {
+		return name[:38] + "…"
 	}
 
 	return name
@@ -243,8 +246,8 @@ func filenameEllipsis(name string) string {
 
 
 func filenameEllipsis_short(name string) string {
-	if len(name) > 27 {
-		return name[:24] + "…"
+	if len(name) > 37 {
+		return name[:34] + "…"
 	}
 
 	return name
