@@ -27,10 +27,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="13.609375"
-     inkscape:cx="14.181401"
+     inkscape:cx="32"
      inkscape:cy="32"
      inkscape:document-units="mm"
-     inkscape:current-layer="g4647"
+     inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      inkscape:pagecheckerboard="true"
@@ -57,22 +57,21 @@
      transform="translate(-58.012248,-218.90231)">
     <g
        id="g4647"
-       transform="matrix(0.12755816,0,0,0.12755816,58.015869,197.89256)">
+       transform="matrix(0.23779717,0,0,0.23779717,57.904521,171.86297)">
       <path
          inkscape:connector-curvature="0"
          id="rect826"
-         transform="matrix(0.26458333,0,0,0.26458333,0,164.70832)"
-         d="m 120.26367,148.67969 c -4.92939,0 -8.89648,3.96905 -8.89648,8.89843 0,4.9294 3.96709,8.89649 8.89648,8.89649 h 275.57227 l 10.67383,-17.79492 z m 311.6836,0 -10.67383,17.79492 h 67.5332 c 4.92939,0 8.89648,-3.96709 8.89648,-8.89649 10e-6,-4.92938 -3.96709,-8.89843 -8.89648,-8.89843 z"
-         style="fill:#0080ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         d="m 30.424783,204.04649 c -0.5313,0 -0.958881,1.05014 -0.958881,2.35437 0,1.30424 0.427581,2.35387 0.958881,2.35387 h 29.701761 l 1.150448,-4.70824 z m 33.593917,0 -1.150449,4.70824 h 7.278871 c 0.5313,0 0.958882,-1.04963 0.958882,-2.35387 10e-7,-1.30423 -0.427582,-2.35437 -0.958882,-2.35437 z"
+         style="fill:#0080ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.16887079;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <rect
-         transform="rotate(30.956364)"
+         transform="matrix(0.677798,0.73524817,-0.31481214,0.949154,0,0)"
          ry="0"
-         y="106.86239"
-         x="198.63701"
-         height="26.731724"
-         width="2.8858113"
+         y="99.933441"
+         x="140.95253"
+         height="16.160725"
+         width="1.3509173"
          id="rect828"
-         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1407537;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <path
          inkscape:connector-curvature="0"
          id="path834"
