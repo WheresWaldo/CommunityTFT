@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="60.13768"
-   height="60.776516"
-   viewBox="0 0 60.137677 60.776516"
+   width="64"
+   height="64"
+   viewBox="0 0 63.999997 64"
    id="svg4160"
    version="1.1"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="sd_eject.svg">
   <defs
      id="defs4162" />
@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="10.10182"
-     inkscape:cx="104.44588"
-     inkscape:cy="1.8948894"
+     inkscape:zoom="14.125"
+     inkscape:cx="32"
+     inkscape:cy="32"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="true"
      units="in"
      showguides="false"
@@ -39,7 +39,8 @@
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:snap-bbox="true"
-     inkscape:snap-global="false">
+     inkscape:snap-global="false"
+     inkscape:pagecheckerboard="true">
     <inkscape:grid
        type="xygrid"
        id="grid4712"
@@ -54,22 +55,23 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="HeatBed 1" />
+     inkscape:label="HeatBed 1"
+     transform="translate(0,3.223484)" />
   <g
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="HeatBed"
-     transform="translate(-9.9771186,-13.402532)"
+     transform="translate(-9.9771186,-10.179048)"
      style="display:inline">
     <g
-       transform="matrix(0.7803205,0,0,0.7803205,9.3637737,9.3173446)"
+       transform="matrix(1.0101998,0,0,1.0101998,2.2560847,-2.5657257)"
        id="g43">
       <path
          sodipodi:nodetypes="cccccccccc"
@@ -108,7 +110,7 @@
     </g>
     <g
        id="g48"
-       transform="translate(-40.668816,10.079706)">
+       transform="matrix(1.1609337,0,0,1.1609337,-59.044115,-0.31655157)">
       <g
          id="g32"
          transform="translate(-61.276088,-5.0485953)">

@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="60.13768"
-   height="60.776516"
-   viewBox="0 0 60.137677 60.776516"
+   width="64"
+   height="64"
+   viewBox="0 0 63.999997 64"
    id="svg4160"
    version="1.1"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
-   sodipodi:docname="motor-off.svg">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="fan-on.svg">
   <defs
      id="defs4162" />
   <sodipodi:namedview
@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="38.462954"
-     inkscape:cy="58.520971"
+     inkscape:zoom="13.765625"
+     inkscape:cx="32"
+     inkscape:cy="32"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="g49"
      showgrid="true"
      units="in"
      showguides="false"
@@ -39,7 +39,8 @@
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:snap-bbox="true"
-     inkscape:snap-global="false">
+     inkscape:snap-global="false"
+     inkscape:pagecheckerboard="true">
     <inkscape:grid
        type="xygrid"
        id="grid4712"
@@ -54,7 +55,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -63,9 +64,9 @@
      id="layer2"
      inkscape:label="Move"
      style="display:inline"
-     transform="translate(-3.5328446,2.2636422)">
+     transform="translate(-3.5328446,5.4871262)">
     <g
-       transform="translate(-6.2257844,-15.773245)"
+       transform="matrix(1.1157581,0,0,1.1157581,-8.9049765,-22.46652)"
        style="display:inline;opacity:1"
        id="g49">
       <path
@@ -123,7 +124,7 @@
          inkscape:connector-curvature="0"
          id="path8779"
          d="m 39.827469,16.062846 c 15.182279,0 27.489949,12.462161 27.489949,27.835015 M 39.827469,71.732876 c -15.18228,0 -27.489949,-12.46216 -27.489949,-27.835015"
-         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="display:none;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
   </g>
 </svg>

@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="60.13768"
-   height="60.776516"
-   viewBox="0 0 60.137677 60.776516"
+   width="64"
+   height="64"
+   viewBox="0 0 63.999997 64"
    id="svg4160"
    version="1.1"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="motor-off.svg">
   <defs
      id="defs4162" />
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="-6.6263317"
-     inkscape:cy="58.520971"
+     inkscape:zoom="14.125"
+     inkscape:cx="32"
+     inkscape:cy="32"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="true"
@@ -39,7 +39,8 @@
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:snap-bbox="true"
-     inkscape:snap-global="false">
+     inkscape:snap-global="false"
+     inkscape:pagecheckerboard="true">
     <inkscape:grid
        type="xygrid"
        id="grid4712"
@@ -54,7 +55,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -63,9 +64,9 @@
      id="layer2"
      inkscape:label="Move"
      style="display:inline"
-     transform="translate(-3.5328446,2.2636422)">
+     transform="translate(-3.5328446,5.4871262)">
     <g
-       transform="matrix(0.8711992,0,0,0.8711992,-2.4678882,-9.9664553)"
+       transform="matrix(1.0231455,0,0,1.0231455,-5.0561905,-19.260889)"
        id="g49">
       <path
          sodipodi:nodetypes="ccccccc"
@@ -100,12 +101,12 @@
          style="fill:none;fill-rule:evenodd;stroke:#232323;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <text
          id="text4803-5-0"
-         y="24.558838"
+         y="24.823687"
          x="14.222913"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            style="font-size:17.5px;line-height:1.25"
-           y="24.558838"
+           y="24.823687"
            x="14.222913"
            id="tspan4188"
            sodipodi:role="line">0</tspan></text>

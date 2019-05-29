@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="60.13768"
-   height="60.776516"
-   viewBox="0 0 60.137677 60.776516"
+   width="64"
+   height="64"
+   viewBox="0 0 63.999997 64"
    id="svg4160"
    version="1.1"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="stop.svg">
   <defs
      id="defs4162" />
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="-327.68668"
-     inkscape:cy="5.1803361"
+     inkscape:zoom="14.125"
+     inkscape:cx="32"
+     inkscape:cy="32"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="true"
@@ -39,7 +39,8 @@
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:snap-bbox="true"
-     inkscape:snap-global="false">
+     inkscape:snap-global="false"
+     inkscape:pagecheckerboard="true">
     <inkscape:grid
        type="xygrid"
        id="grid4712"
@@ -54,7 +55,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -63,9 +64,9 @@
      id="layer2"
      inkscape:label="Move"
      style="display:inline"
-     transform="translate(-3.5328446,2.2636422)">
+     transform="translate(-3.5328446,5.4871262)">
     <g
-       transform="translate(-6.0411758,-15.071814)"
+       transform="matrix(1.0357954,0,0,1.0357954,-5.5290479,-18.22979)"
        id="g46">
       <path
          sodipodi:nodetypes="ccccccc"
