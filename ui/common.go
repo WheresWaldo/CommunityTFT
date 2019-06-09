@@ -13,7 +13,7 @@ import (
 )
 
 // Set at compilation time.
-var Version = "0.1.x"
+var Version = "0.2.x"
 var Build = "no-set"
 
 const panelW = 4

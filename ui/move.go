@@ -31,9 +31,7 @@ func (m *movePanel) initialize() {
 	m.AddButton(m.createMoveButton("Y-", "move-y+.svg", octoprint.YAxis, -1))
 	m.AddButton(m.createMoveButton("Z+", "move-z+.svg", octoprint.ZAxis, 1))
 
-	m.step = MustStepButton("move-step.svg",
-		Step{"20 mm", 20}, Step{"10 mm", 10}, Step{"1 mm", 1}, Step{"0.1 mm", 0.1},
-	)
+	m.step = MustStepButton("move-step.svg", Step{"100 mm", 100}, Step{"10 mm", 10}, Step{"1 mm", 1}, Step{"0.1 mm", 0.1}, Step{"0.01 mm", 0.01})
 
 	m.AddButton(m.step)
 	m.AddButton(m.createMoveButton("X-", "move-x-.svg", octoprint.XAxis, -1))
