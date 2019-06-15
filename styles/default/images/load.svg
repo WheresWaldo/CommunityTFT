@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="64"
-   height="64"
-   viewBox="0 0 63.999997 64"
+   width="60.13768"
+   height="60.776516"
+   viewBox="0 0 60.137677 60.776516"
    id="svg4160"
    version="1.1"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="14.125"
-     inkscape:cx="32"
-     inkscape:cy="32"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="86.957656"
+     inkscape:cy="-24.142635"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="true"
@@ -39,8 +39,7 @@
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:snap-bbox="true"
-     inkscape:snap-global="false"
-     inkscape:pagecheckerboard="true">
+     inkscape:snap-global="false">
     <inkscape:grid
        type="xygrid"
        id="grid4712"
@@ -55,7 +54,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -64,10 +63,10 @@
      id="layer2"
      inkscape:label="Move"
      style="display:inline"
-     transform="translate(-3.5328446,5.4871262)">
+     transform="translate(-3.5328446,2.2636422)">
     <path
-       style="fill:#232323;fill-opacity:1;fill-rule:evenodd;stroke:#ff670f;stroke-width:4.65436268;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 64.772913,23.331917 35.685434,-2.5274598 6.2927757,23.063423 17.928413,33.407178 l 9.417417,-8.199651 -0.391264,30.179634 16.539452,0.165971 0.390268,-30.102897 9.131554,8.118602 z"
+       style="fill:#232323;fill-opacity:1;fill-rule:evenodd;stroke:#4080ff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 51.279518,25.938717 33.693936,8.1686316 15.923851,25.754213 l 7.034623,7.108037 5.693541,-5.634648 -0.236549,20.738885 9.99935,0.114053 0.235947,-20.686154 5.520715,5.578953 z"
        id="path7561-4-3"
        inkscape:connector-curvature="0" />
   </g>

@@ -15,26 +15,25 @@
    sodipodi:docname="delete.svg"
    x="0px"
    y="0px"
-   viewBox="0 0 64.000002 64.000001"
-   xml:space="preserve"
-   width="64"
-   height="64"><metadata
-   id="metadata12"><rdf:RDF><cc:Work
+   viewBox="0 0 60.1 60.8"
+   style="enable-background:new 0 0 60.1 60.8;"
+   xml:space="preserve"><metadata
+   id="metadata6894"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
-   id="defs10" />
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs6892" />
 <style
    type="text/css"
-   id="style2">
+   id="style6884">
 	.st0{fill:none;stroke:#ff670f;stroke-width:3;stroke-linejoin:round;}
 </style>
 <sodipodi:namedview
    bordercolor="#666666"
    borderopacity="1.0"
    id="base"
-   inkscape:current-layer="layer3"
-   inkscape:cx="26.483019"
-   inkscape:cy="32"
+   inkscape:current-layer="g37"
+   inkscape:cx="-162.69776"
+   inkscape:cy="7.2709709"
    inkscape:document-units="px"
    inkscape:pageopacity="0.0"
    inkscape:pageshadow="2"
@@ -45,12 +44,11 @@
    inkscape:window-width="3200"
    inkscape:window-x="0"
    inkscape:window-y="0"
-   inkscape:zoom="13.765625"
+   inkscape:zoom="5.6"
    pagecolor="#ffffff"
    showgrid="true"
    showguides="false"
-   units="in"
-   inkscape:pagecheckerboard="true">
+   units="in">
 	<inkscape:grid
    id="grid4712"
    originx="-9.9771178"
@@ -59,18 +57,18 @@
 </sodipodi:namedview>
 <g
    id="layer3"
-   transform="translate(-3.5328446,5.463643)"
+   transform="translate(-3.5328446,2.2636422)"
    inkscape:groupmode="layer"
    inkscape:label="Home">
 	<g
    id="g37"
-   transform="matrix(1.6432106,0,0,1.6432106,-32.003111,-44.943303)">
+   transform="translate(-7.4697456,-15.428958)">
 		<path
    id="path4506"
    inkscape:connector-curvature="0"
    class="st0"
-   d="M 30.5,25.8 41.1,36.4 51.7,25.8 58.8,32.9 48.1,43.5 58.7,54.1 51.6,61.2 41.1,50.5 30.5,61.1 23.4,54 34,43.5 23.4,32.9 Z"
-   style="fill:none;stroke:#ff670f;stroke-width:3;stroke-linejoin:round" />
+   d="M30.5,25.8l10.6,10.6l10.6-10.6l7.1,7.1L48.1,43.5l10.6,10.6    l-7.1,7.1L41.1,50.5L30.5,61.1l-7.1-7.1L34,43.5L23.4,32.9L30.5,25.8z"
+   style="stroke:#4080ff;stroke-opacity:1" />
 	</g>
 </g>
 </svg>

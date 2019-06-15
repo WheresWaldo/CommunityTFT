@@ -25,8 +25,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="14.125"
-     inkscape:cx="32"
+     inkscape:zoom="13.765625"
+     inkscape:cx="17.395436"
      inkscape:cy="32"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
@@ -71,8 +71,14 @@
      style="display:inline"
      transform="translate(-3.5328446,5.4871262)">
     <g
-       transform="matrix(1.1463398,0,0,1.1463398,-10.32075,-23.522736)"
+       transform="matrix(1.1474555,0,0,1.1474555,-10.365378,-21.161804)"
        id="g53">
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="rect4760-8"
+         d="m 22.795553,16.619161 3.21242,-1.25 3.212421,1.25 v 47.687531 l -3.212421,0.892857 -3.21242,-0.892857 z"
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <path
          sodipodi:nodetypes="csssc"
          inkscape:connector-curvature="0"
@@ -118,7 +124,7 @@
          inkscape:connector-curvature="0"
          id="path4242"
          d="m 43.310553,48.055281 -1.497561,-3.709086 14.65785,-3.761307 z"
-         style="fill:#ff670f;fill-opacity:1;fill-rule:evenodd;stroke:#ff670f;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+         style="fill:#4080ff;fill-opacity:1;fill-rule:evenodd;stroke:#4080ff;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
       <circle
          r="2.5"
          cy="47.160713"

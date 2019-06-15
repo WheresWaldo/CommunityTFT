@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="64"
-   height="64"
-   viewBox="0 0 63.999997 64"
+   width="60.13768"
+   height="60.776516"
+   viewBox="0 0 60.137677 60.776516"
    id="svg4160"
    version="1.1"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -26,10 +26,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="11.2"
-     inkscape:cx="20.17341"
+     inkscape:cx="26.869838"
      inkscape:cy="37.332473"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g43"
      showgrid="true"
      units="in"
      showguides="false"
@@ -39,8 +39,7 @@
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:snap-bbox="true"
-     inkscape:snap-global="false"
-     inkscape:pagecheckerboard="true">
+     inkscape:snap-global="false">
     <inkscape:grid
        type="xygrid"
        id="grid4712"
@@ -55,23 +54,22 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="HeatBed 1"
-     transform="translate(0,3.223484)" />
+     inkscape:label="HeatBed 1" />
   <g
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="HeatBed"
-     transform="translate(-9.9771186,-10.179048)"
+     transform="translate(-9.9771186,-13.402532)"
      style="display:inline">
     <g
-       transform="matrix(1.0094519,0,0,1.0094519,2.2854921,-2.5325989)"
+       transform="matrix(0.7803205,0,0,0.7803205,9.3637737,9.3173446)"
        id="g43">
       <path
          sodipodi:nodetypes="cccccccccc"
@@ -85,28 +83,28 @@
          height="11"
          width="2"
          id="rect4378"
-         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff670f;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#407dff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <rect
          y="22.297136"
          x="37.063133"
          height="11"
          width="2"
          id="rect4378-7"
-         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff670f;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#4080ff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <rect
          y="22.129396"
          x="45.464287"
          height="11"
          width="2"
          id="rect4378-8"
-         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff670f;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#4080ff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <rect
          y="22.103247"
          x="53.759563"
          height="11"
          width="2"
          id="rect4378-76"
-         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff670f;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#4080ff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
   </g>
 </svg>
